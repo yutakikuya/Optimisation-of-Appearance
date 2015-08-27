@@ -1,0 +1,25 @@
+﻿2015/08/28 4:59:15 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\悠太\documents\visual studio 2010\Projects\m1_research_tool\2002_R_Shacked_Auto Lighting_Design\2002_R_Shacked_Auto Lighting_Design.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\2002_R_Shacked_Auto Lighting_Design.unsuccessfulbuild" を作成しています。
+       GenerateTargetFrameworkMonikerAttribute:
+       すべての出力ファイルが入力ファイルに対して最新なので、ターゲット "GenerateTargetFrameworkMonikerAttribute" を省略します。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\modules\imgproc\include /IC:\opencv\modules\highgui\include /IC:\opencv\modules\core\include /IC:\opencv\include\ /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt 2002_R_Shacked_main.cpp /clr:nostdlib 
+         2002_R_Shacked_main.cpp
+         すべての出力が最新のものです。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\悠太\documents\visual studio 2010\Projects\m1_research_tool\Release\2002_R_Shacked_Auto Lighting_Design.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_core246.lib opencv_highgui246.lib opencv_imgproc246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\2002_R_Shacked_Auto Lighting_Design.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\悠太\documents\visual studio 2010\Projects\m1_research_tool\Release\2002_R_Shacked_Auto Lighting_Design.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\2002_R_Shacked_ALD.obj
+         Release\2002_R_Shacked_main.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         2002_R_Shacked_Auto Lighting_Design.vcxproj -> C:\Users\悠太\documents\visual studio 2010\Projects\m1_research_tool\Release\2002_R_Shacked_Auto Lighting_Design.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\悠太\documents\visual studio 2010\Projects\m1_research_tool\Release\2002_R_Shacked_Auto Lighting_Design.exe;#1" /manifest "Release\2002_R_Shacked_Auto Lighting_Design.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         ファイル "Release\2002_R_Shacked_Auto Lighting_Design.unsuccessfulbuild" を削除しています。
+         "Release\2002_R_Shacked_Auto Lighting_Design.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\悠太\documents\visual studio 2010\Projects\m1_research_tool\2002_R_Shacked_Auto Lighting_Design\2002_R_Shacked_Auto Lighting_Design.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:10.73
