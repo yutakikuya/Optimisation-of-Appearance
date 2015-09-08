@@ -24,12 +24,6 @@
 #define F_HIST_ALPHA_2 0.1 // 0.8 recommend
 #define F_DIR_ALPHA 65
 #define F_DIR_THITA_T 45
-#define F_GRAD_WEIGHT 0.6
-#define F_EDGE_WEIGHT 0.6
-#define F_VAR_WEIGHT 0.5
-#define F_MEAN_WEIGHT 0.4
-#define F_HIST_WEIGHT 0.55
-#define F_DIR_WEIGHT 0.5
 #define F_EDGE_T_MAX 0.7
 #define F_EDGE_T_MIN 0.2
 
@@ -51,4 +45,4 @@ double f_mean(cv::Mat input_img, cv::Mat PIM);
 double f_hist(cv::Mat input_img, cv::Mat PIM);
 double f_dir(cv::Mat input_img, cv::Mat PIM);
 
-double f_Q(cv::Mat input_img, cv::Mat PIM);
+double f_Q(double f_grad,double f_edge,double f_var,double f_mean,double f_hist,double f_dir);

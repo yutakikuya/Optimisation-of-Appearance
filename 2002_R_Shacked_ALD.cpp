@@ -282,7 +282,14 @@ double f_edge(cv::Mat raw_img, cv::Mat PIM)
 	return result;
 }
 
-double f_Q(cv::Mat raw, cv::Mat PIM)
+double f_Q(double f_grad,double f_edge,double f_var,double f_mean,double f_hist,double f_dir)
 {
-	return F_GRAD_WEIGHT*f_grad(raw,PIM)+F_EDGE_WEIGHT*f_edge(raw,PIM)+F_VAR_WEIGHT*f_var(raw,PIM)+F_MEAN_WEIGHT*f_mean(raw,PIM)+F_HIST_WEIGHT*f_hist(raw,PIM)+F_DIR_WEIGHT*f_dir(raw,PIM);
+	cv::FileStorage fs("config.yml", cv::FileStorage::READ);
+	double f_e_c = static_cast<double>(fs["f_edge_scale"]);
+	double f_g_c = static_cast<double>(fs["f_grad_scale"]);
+	double f_v_c = static_cast<double>(fs["f_var_scale"]);
+	double f_m_c = static_cast<double>(fs["f_mean_scale"]);
+	double f_h_c = static_cast<double>(fs["f_hist_scale"]);
+	double f_d_c = static_cast<double>(fs["f_dir_scale"]);
+	return f_g_c*f_grad+f_e_c*f_edge+f_v_c*f_var+f_m_c*f_mean+f_h_c*f_hist+f_d_c*f_dir;
 }
